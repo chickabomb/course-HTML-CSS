@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	margin: 10px;
+	color: rgb(76, 78, 92);
+}
+.container {
+	max-width: 50%;
+	margin: auto;
+}
+.box {
+	display: inline-block;
+}
+.box:nth-child(1) {
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+img {
+	border-radius: 20px;
+}
+.photo {
+	box-shadow: 4px 4px 14px rgba(78, 6, 6, 0.5);
+}
+.info p {
+	color: brown;
+	font-style: italic;
+	margin: 10px 0;
+}
+h3 {
+	padding: 10px;
+	color:darkslategray
+}
+div {
+	margin: 10px 0;
+}
+ol {
+	padding-bottom: 10px;
+}
+li {
+	padding: 3px;
+}
+.card-1 {
+	border-radius: 10px;
+	border: 5px solid red;
+	background-color:rgb(250, 134, 134);
+
+	/* padding-left: 30px; */
+}
+.social {
+	margin: 0;
+}
+.social h4 {
+	padding-bottom: 5px;
+}
+.socpack {
+	color: #aaa;
+}
+.socpack:hover {
+	color:rgb(71, 41, 121)
+}
+.socpack:active {
+	background: #e9baf7;
+}
+.socpack:visited {
+	color: red;
+}
+.social a:hover {
+	color:rgb(71, 41, 121)
+}
+.hobby {
+	padding-left: 32px;
+}
+.hobby ol li:nth-child(odd) {
+	color: #eee;
+}
+.hobby ol li:hover {
+	background: #f19c9c;
+}
+.card-2 {
+	/* width: 500px; */
+	background-color:rgb(236, 238, 122);
+	border: 5px solid orange;
+	border-bottom-left-radius: 20px;
+	border-radius: 10px;
+}
+
+td {
+	padding: 3px 20px;
+}
+.table {
+	padding: 0 0 20px 10px;
+}
+
+.table tr th {
+	background: rgb(240, 214, 101);
+	padding: 5px;
+}
+.table tr th:hover {
+	color: orange;
+}
+.table tr td:nth-last-child(1) {
+	background: #f7f6ba;
+}
+.card-3 {
+	border-right: 20px solid rgb(17, 90, 39);
+	background-color:rgb(159, 238, 122);
+	padding: 0 0 10px 10px;
+	border-radius: 10px;
+	border: 5px solid green;
+
+}
+.card-3 h3 {
+	/* padding-left: 0; */
+	text-align: center;
+}
+.card-3 label {
+	/* display: block; */
+	color: rgb(76, 78, 92);
+}
+#name {
+	margin-right: 10px;
+}
+textarea {
+	margin-top: 10px;
+	width: 70%;
+}
+button {
+	border: 5px solid green;
+	border-radius: 5px;
+	background-color: white;
+	color: rgb(76, 78, 92);
+	padding: 15px 20px;
+	margin: 10px 0;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+button:hover {
+	color: green;
+	font-weight: 900;
+	background: #ff7e68;
+}
+
+@media (max-width: 1004px) {
+	.boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.boxes .box {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.info {
+		text-align: center;
+	}
+	.social {
+		margin: 0 auto;
+	}
+	.social h4 {
+		text-align: center;
+	}
+	.table {
+		margin: 0 10px;
+		padding: 10px 0;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 660px) {
+	.table {
+		display: block;
+		
+	}
+	tbody tr td {
+		padding: 0;
+	}
+}
